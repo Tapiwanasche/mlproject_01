@@ -1,6 +1,4 @@
-```markdown
 # 🏦 FinTech Customer Churn AI (End-to-End MLOps Pipeline)
-
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![XGBoost](https://img.shields.io/badge/XGBoost-Optimized-orange.svg)
 ![Flask](https://img.shields.io/badge/Flask-Web%20App-green.svg)
@@ -16,7 +14,7 @@ This project is a fully automated, end-to-end **Machine Learning Web Application
 ## 🌐 Live Web Application
 The machine learning model has been fully deployed to the cloud using Render and a custom Flask web server.
 
-**[🚀 Try the Live FinTech AI Here](https://fintech-churn-ai.onrender.com)**
+**[🚀 Try the Live FinTech AI Here](https://mlproject-01.onrender.com/)**
 
 *(Note: This application is hosted on a free Render tier. If the server has been inactive, it may take up to 60 seconds to "wake up" upon your first visit. Once awake, predictions are generated instantly.)*
 
@@ -75,43 +73,43 @@ This project graduates from experimental Jupyter Notebooks to a modular, product
 ## ⚙️ How to Run Locally
 
 1. **Clone the repository:**
-
 ```bash
-   git clone [https://github.com/Tapiwanasche/mlproject_01.git](https://github.com/Tapiwanasche/mlproject_01.git)
-   cd mlproject_01
+git clone [https://github.com/Tapiwanasche/mlproject_01.git](https://github.com/Tapiwanasche/mlproject_01.git)
+cd mlproject_01
 
 ```
+
 
 2. **Create a virtual environment and install dependencies:**
-
 ```bash
-   python -m venv .venv
-   source .venv/Scripts/activate  # Mac/Linux
-   .venv\Scripts\activate         # Windows
-   pip install -r requirements.txt
+python -m venv .venv
+source .venv/Scripts/activate  # Mac/Linux
+.venv\Scripts\activate         # Windows
+pip install -r requirements.txt
 
 ```
+
 
 3. **(Optional) Run the automated training pipeline to build a fresh model:**
-
 ```bash
-   python -m src.pipeline.train_pipeline
+python -m src.pipeline.train_pipeline
 
 ```
+
 
 4. **Start the Flask Web Server:**
-
 ```bash
-   python app.py
+python app.py
 
 ```
+
 
 5. **Open your browser:**
 Navigate to `http://127.0.0.1:5000` to interact with the AI directly.
 
 ---
 
-*Developed by Tapiwanashe Josiah Tapfumaneyi.*
+*Developed by Tapiwanashe J Tapfumaneyi.*
 
 ```
 
